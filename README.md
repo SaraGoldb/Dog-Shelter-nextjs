@@ -43,9 +43,11 @@ screenshots/
 ```
 
 
-## Screenshot
+## Screenshots
 
-![Dog Shelter App](screenshot.png)
+![Home Page](screenshots/home.png)
+
+![Adoption Page](screenshots/adoption.png)
 
 
 ## What I Learned
