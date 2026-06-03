@@ -1,6 +1,6 @@
 # Dog Shelter Adoption App
-
 An interactive web application that simulates dog adoption. Built using Next.js, React, TypeScript, and CSS.
+
 
 ## Features
 - Randomized dog image gallery
@@ -10,11 +10,13 @@ An interactive web application that simulates dog adoption. Built using Next.js,
 - Clean, centered UI using Flexbox
 - Custom color palette using CSS variables
 
+
 ## Tech Stack
 - Next.js
 - React
 - TypeScript
 - CSS (Flexbox, CSS Variables)
+
 
 ## How to run
 ```bash
@@ -22,6 +24,7 @@ npm install
 npm run dev
 ```
 Open http://localhost:3000 in your browser.
+
 
 ## Project Structure
 ```text
@@ -33,17 +36,28 @@ app/
 
 public/
 └── imgs/
+
+screenshots/
+├── home.png
+└── adoption.png
 ```
+
+
+## Screenshot
+
+![Dog Shelter App](screenshot.png)
+
 
 ## What I Learned
 
 This project began as a vanilla HTML/CSS/JavaScript application and was later migrated to Next.js and React. Through this conversion, I learned:
 
-* React state management with useState
-* Client vs. Server Components in Next.js
-* Component-based architecture
-* TypeScript fundamentals
-* Project organization in modern React applications
+- React state management with useState
+- Client vs. Server Components in Next.js
+- Component-based architecture
+- TypeScript fundamentals
+- Project organization in modern React applications
+
 
 ## Credits
 The original HTML project that I based this Next.js project on was built while following "HTML/CSS/JS Crash Course" by Colt Steele 
