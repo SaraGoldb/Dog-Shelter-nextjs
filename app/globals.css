@@ -1,0 +1,78 @@
+/* STYLE of a webpage */
+
+/*Color Palette*/
+:root {
+  --logo:       #7A909B; /*slate-grey*/
+  --background: #D6EFFF; /*pale-sky*/
+  --text:       #779BE7; /*wisteria-blue*/
+  --primary:    #FF499E; /*dragonfruit*/
+  --secondary:  #FF7F7F; /*grapefruit-pink*/
+  --accent:     #FFC465; /*sunflower-gold*/
+  --surface:    #FFEBF4; /*lavender-blush*/
+  --surface2:   #FFEFD6; /*papaya-whip*/
+}
+
+/*name of element and how it will be styled*/
+h1 {
+  color: var(--primary);
+  font-weight: 400;
+  font-size: 50px;
+  text-transform: uppercase;
+  border-top: 5px solid;
+
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Source Code Pro";
+  font-weight: 400;
+}
+
+img {
+  height: 500px;
+  aspect-ratio: 1;    /*set width equal to height*/
+  border-radius: 25%; /*round the edges*/
+  object-fit: cover;  /*crop image without squishing*/
+}
+
+button {
+  background-color: var(--surface);
+  border: none; /*2px solid var(--surface)*/
+  font-size: 25px;
+  font-family: "Source Code Pro";
+  font-weight: 500;
+  color: var(--secondary);
+  text-transform: uppercase;
+  margin: 50px auto 50px; /*around button*/
+  padding: 20px 25px; /*inside button*/
+  letter-spacing: 3px;
+  /*text-decoration: none;*/
+  /*outline: none;*/
+  /*display: block;*/
+}
+
+button:hover {
+  transition: 0.15s;
+  background-color: var(--secondary);
+  color: var(--surface);
+  /*text-decoration: underline;*/
+}
+
+p {
+  font-size: 20px;
+}
+
+#container {
+  /*Center items horizontally and vertically, using 100% of the screen height*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#message {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
